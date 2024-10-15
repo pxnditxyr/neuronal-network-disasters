@@ -168,8 +168,8 @@ model = Sequential([
 ])
 
 # Resumen del modelo
-print("\nResumen del modelo:")
-model.summary()
+# print("\nResumen del modelo:")
+# model.summary()
 
 # 24. Compilar el modelo
 model.compile(
