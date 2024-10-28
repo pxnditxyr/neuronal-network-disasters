@@ -61,7 +61,7 @@ disasters_encoded = pd.concat([disasters_non_null[['date', 'address']], one_hot_
 
 print("\nDatos de desastres codificados (con todas las categorías):")
 print(disasters_encoded.head())
-df_normalized = pd.read_csv('./dataset/interpolated-normalized.csv')
+df_normalized = pd.read_csv('./dataset/interpolated-normalized-names.csv')
 
 # 11. Codificar las direcciones
 # Reemplazar valores nulos en 'address' con una categoría específica
